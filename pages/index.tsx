@@ -47,7 +47,16 @@ export default function Home() {
           />
         </div>
 
-        <div className={styles.grid}>
+        <h2>
+          職歴
+        </h2>
+        <h2>
+          保有スキル
+        </h2>
+        <h2>
+          アカウント
+        </h2>
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -104,7 +113,8 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
+        
       </main>
     </>
   )
